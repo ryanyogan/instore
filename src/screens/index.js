@@ -5,11 +5,18 @@ import {
   createBottomTabNavigator,
 } from 'react-navigation';
 
-const AuthNavigator = createStackNavigator({
-  Login: {
-    getScreen: () => require('./LoginScreen').default,
+const AuthNavigator = createStackNavigator(
+  {
+    Login: {
+      getScreen: () => require('./LoginScreen').default,
+    },
   },
-});
+  {
+    navigationOptions: {
+      header: null,
+    },
+  },
+);
 
 const TabNavigator = createBottomTabNavigator({
   Home: {

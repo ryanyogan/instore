@@ -38,7 +38,7 @@ const color = {
   greenDarkest: '#1b5e20',
   greenDarker: '#2e7d32',
   greenDark: '#388e3c',
-  green: '#4caf50',
+  green: '#42B09',
   greenLight: '#66bb6a',
   greenLighter: '#81c784',
   greenLightest: '#a5d6a7',
@@ -51,7 +51,7 @@ const theme = {
       base: 16,
       md: 18,
       lg: 20,
-      xl: 24,
+      xl: 32,
     },
     weight: {
       light: '200',
